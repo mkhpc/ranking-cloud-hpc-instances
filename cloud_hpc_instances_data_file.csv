@@ -1,0 +1,41 @@
+Cloud Provider,HPC Instances,Processor,Region,Physical Cores,Total Memory (GB),Memory/Core (GB),Network Bandwidth (Gbps),On-Demand Hourly Cost (USD)
+AWS,hpc7g.4xlarge,AWS Graviton3E [Aarch64],US East (N. Virginia),16,128,8,200,1.6832
+AWS,hpc7g.8xlarge,AWS Graviton3E [Aarch64],US East (N. Virginia),32,128,4,200,1.6832
+AWS,hpc7g.16xlarge,AWS Graviton3E [Aarch64],US East (N. Virginia),64,128,2,200,1.6832
+AWS,hpc7a.12xlarge,AMD EPYC 9R14 (Genoa-X) [x86-64],US East (Ohio),24,768,32,300,7.2
+AWS,hpc7a.24xlarge,AMD EPYC 9R14 (Genoa-X) [x86-64],US East (Ohio),48,768,16,300,7.2
+AWS,hpc7a.48xlarge,AMD EPYC 9R14 (Genoa-X) [x86-64],US East (Ohio),96,768,8,300,7.2
+AWS,hpc7a.96xlarge,AMD EPYC 9R14 (Genoa-X) [x86-64],US East (Ohio),192,768,4,300,7.2
+AWS,hpc6id.32xlarge,Intel Xeon Platinum 8375C (Ice Lake) [x86-64],US East (Ohio),64,1024,16,200,5.7
+AWS,hpc6a.48xlarge,AMD EPYC 7R13 (Milan) [x86-64],US East (Ohio),96,384,4,100,2.88
+Azure,Standard_HB60-15rs,AMD EPYC 7551 (Naples) [x86-64],East US,15,228,15.2,100,2.28
+Azure,Standard_HB60-30rs,AMD EPYC 7551 (Naples) [x86-64],East US,30,228,7.6,100,2.28
+Azure,Standard_HB60-45rs,AMD EPYC 7551 (Naples) [x86-64],East US,45,228,5.067,100,2.28
+Azure,Standard_HB60rs,AMD EPYC 7551 (Naples) [x86-64],East US,60,228,3.8,100,2.28
+Azure,Standard_HB120-16rs_v2,AMD EPYC 7V12 (Genoa) [x86-64],East US,16,456,28.5,200,3.6
+Azure,Standard_HB120-32rs_v2,AMD EPYC 7V12 (Genoa) [x86-64],East US,32,456,14.25,200,3.6
+Azure,Standard_HB120-64rs_v2,AMD EPYC 7V12 (Genoa) [x86-64],East US,64,456,7.125,200,3.6
+Azure,Standard_HB120-96rs_v2,AMD EPYC 7V12 (Genoa) [x86-64],East US,96,456,4.75,200,3.6
+Azure,Standard_HB120rs_v2,AMD EPYC 7V12 (Genoa) [x86-64],East US,120,456,3.8,200,3.6
+Azure,Standard_HB120-16rs_v3,AMD EPYC 7V73X (Milan-X) [x86-64],East US,16,456,28.5,200,3.6
+Azure,Standard_HB120-32rs_v3,AMD EPYC 7V73X (Milan-X) [x86-64],East US,32,456,14.25,200,3.6
+Azure,Standard_HB120-64rs_v3,AMD EPYC 7V73X (Milan-X) [x86-64],East US,64,456,7.125,200,3.6
+Azure,Standard_HB120-96rs_v3,AMD EPYC 7V73X (Milan-X) [x86-64],East US,96,456,4.75,200,3.6
+Azure,Standard_HB120rs_v3,AMD EPYC 7V73X (Milan-X) [x86-64],East US,120,456,3.8,200,3.6
+Azure,Standard_HB176-24rs_v4,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,24,768,32,400,7.2
+Azure,Standard_HB176-48rs_v4,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,48,768,16,400,7.2
+Azure,Standard_HB176-96rs_v4,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,96,768,8,400,7.2
+Azure,Standard_HB176-144rs_v4,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,144,768,5.33,400,7.2
+Azure,Standard_HB176rs_v4,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,176,768,4.36,400,7.2
+Azure,Standard_HC44-16rs,Intel Xeon Platinum 8168 (Skylake) [x86-64],East US,16,352,22,100,3.168
+Azure,Standard_HC44-32rs,Intel Xeon Platinum 8168 (Skylake) [x86-64],East US,32,352,11,100,3.168
+Azure,Standard_HC44rs,Intel Xeon Platinum 8168 (Skylake) [x86-64],East US,44,352,8,100,3.168
+Azure,Standard_HX176-24rs,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,24,1408,58.67,400,8.64
+Azure,Standard_HX176-48rs,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,48,1408,29.33,400,8.64
+Azure,Standard_HX176-96rs,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,96,1408,14.67,400,8.64
+Azure,Standard_HX176-144rs,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,144,1408,9.78,400,8.64
+Azure,Standard_HX176rs,AMD EPYC 9V33X (Genoa-X) [x86-64],East US,176,1408,8,400,8.64
+GCP,h3-standard-88,4th Gen Intel Xeon Scalable (Sapphire Rapids) [x86-64],Iowa (us-central1),88,352,4,200,4.9236
+OCI,BM.HPC.E5.144,AMD EPYC 9J14  (Genoa-X) [x86-64],US West (Phoenix),144,768,5.33,100,6.34
+OCI,BM.Optimized3.36,Intel Xeon Gold 6354 (Ice Lake-SP) [x86-64],US West (Phoenix),36,512,14.22,100,2.71
+OCI,BM.HPC2.36,Intel Xeon Gold 6154 (Skylake) [x86-64],US West (Phoenix),36,384,10.67,100,2.7
